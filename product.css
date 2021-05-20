@@ -14,7 +14,11 @@ h1 {
 
 .lead {
   font-size: 1.15rem;
-  width: 600px;
+  max-width: 600px;
+}
+
+.profile-img {
+  width: 100%;
 }
 
 .container {
@@ -24,13 +28,6 @@ h1 {
 .profile {
   display: flex;
   justify-content: center;
-}
-
-.avatar-wrapper {
-  width: 578px;
-  height: 497px;
-  margin-right:33px;
-  background-image: url(./assets/img/profile.png);
 }
 
 /*
@@ -102,7 +99,8 @@ h1 {
 }
 
 #gallery {
-  width: 60%;
+  width: 80%;
+  max-width: 1125px;
   margin: auto;
 }
 
@@ -183,7 +181,6 @@ img.glitter-star {
 
 .text {
   position:relative;
-  overflow:hidden;
 }
 
 .fade-in-text {
