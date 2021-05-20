@@ -27,10 +27,9 @@ h1 {
 }
 
 .avatar-wrapper {
-  width: 575px;
-  height: 505px;
+  width: 578px;
+  height: 497px;
   background-image: url(./assets/img/profile.png);
-  background-position-x: -20px;
 }
 
 /*
