@@ -29,6 +29,7 @@ h1 {
 .avatar-wrapper {
   width: 578px;
   height: 497px;
+  margin-right:33px;
   background-image: url(./assets/img/profile.png);
 }
 
